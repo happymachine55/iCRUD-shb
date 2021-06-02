@@ -23,6 +23,25 @@ td{
     padding: 0px;
 }
 
+body {
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+input[type="text"]{
+    width: 50;
+    height: 20;
+    margin-right: 3px;
+    padding: 10px;
+
+}
+
+input[type="time"]{
+    width: 50;
+    height: 20;
+    margin-right: 3px;
+    padding: 10px;
+}
+
 
 .edit-button{
     width: 60px;
