@@ -12,13 +12,13 @@
         </div>
 
         <div class="form">
-            <form action="javascript:void;" method="POST" onsubmit="app.Add()">
+            <form action="javascript:void(0);" method="post" onsubmit="app.Add()">
                 <input type="text" id="add-todo" placeholder="Thing To-do">
                 <input type="submit" value="추가">
             </form>
             <table>
                 <tr class="to-do">
-                    <th><h2> To-Do :</h2></th>
+                    <th><h2> To-Do : </h2></th>
                 </tr>
                 <tbody id="tasks">
                 </tbody>
@@ -26,7 +26,7 @@
         </div>
 
         <div id="edit-box" role="aria-hidden">
-            <form action="javascript:void(0);" method="POST" id="save-edit">
+            <form action="javascript:void(0);" method="post" id="save-edit">
                 <input type="text" id="edit-todo">
                 <input type="submit" value="저장">
                 <a onclick="CloseInput()" aria-label="Close"> &#10006; </a>
@@ -34,5 +34,6 @@
         </div>
 
         <script src="script.js"></script>
+        
     </body>
 </html>

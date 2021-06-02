@@ -15,3 +15,21 @@
     margin: auto;
     margin-top: 10px;
 }
+
+td{
+    background-color: aliceblue;
+    padding-right: 10px;
+    text-align: left;
+    padding: 0px;
+}
+
+
+.edit-button{
+    width: 60px;
+    height: 25px;
+}
+
+.delete-button{
+    width: 60px;
+    height: 25px;
+}
